@@ -1,0 +1,103 @@
+[EQUIP]
+table_width=750
+table_title="Equipment Tree"
+tree_table=equip
+treeform=treeform
+ID=EQNUM
+ID_DESC=DESCRIPTION
+function="../../objects/object_print.php"
+[EQUIP2]
+table_width=750
+table_title="Equipment Tree"
+tree_table=equip
+treeform="treeform"
+ID=EQNUM
+ID_DESC=DESCRIPTION
+function="return_equip.php"
+[EQUIP3]
+table_width=750
+table_title="Equipment Tree"
+tree_table=equip
+treeform="withtree"
+ID=EQNUM
+ID_DESC=DESCRIPTION
+function="return_equip3.php"
+[SAP]
+table_width=750
+table_title="Equipment Tree"
+tree_table=equip_new
+treeform=treeform
+ID=EQNUM
+ID_DESC=DESCRIPTION
+function="../../objects/object_print.php"
+[EQUIP_CLID]
+table_width=750
+table_title="Equipment Tree"
+tree_table=equip_clients
+treeform="withtree"
+ID=EQNUM
+ID_DESC=DESCRIPTION
+function="../../objects/object_client_print.php"
+[EQUIP_CLID_RETURN]
+table_width=750
+table_title="Equipment Tree"
+tree_table=equip_clients
+treeform="treeform"
+ID=EQNUM
+ID_DESC=DESCRIPTION
+function="return_equip_clid.php"
+[MCH]
+table_width=750
+table_title="Equipment Tree"
+tree_table=equip
+treeform="treeform"
+ID=MACHINE
+ID_DESC=EQ_DESCRIPTION
+function="return_machine.php"
+[FL]
+table_width=750
+table_title="Equipment Tree"
+tree_table=equip
+treeform="treeform"
+ID=FUNCTION
+ID_DESC=FL_DESCRIPTION
+function="return_fl.php"
+
+[TASKEQ]
+table_width=1000
+table_title=Equipment-Task Tree
+tree_table=taskeq_tree
+treeform=treeform
+ID=EQNUM
+ID_DESC=DESCRIPTION
+
+[OEE]
+table_width=1000
+table_title=OEE Tree
+tree_table=oee_tree
+treeform=treeform
+ID=OEE
+ID_DESC="OEE_DESCRIPTION"
+function="return_oee.php"
+[RFF]
+table_width=1000
+table_title=Reason-for-Failure Tree
+tree_table=rff_tree
+treeform=treeform
+ID="RFF"
+ID_DESC="RFF_DESCRIPTION"
+function="return_rff.php"
+[RCM]
+table_width=1000
+table_title=RCM Tree
+tree_table=rcm tree
+treeform=withtree
+ID=FUNCTION
+ID_DESC=FAILMODE
+[MYCMMS]
+table_width=800
+table_title=myCMMS3 Tree
+tree_table=mycmms_tree
+treeform=withtree
+ID=MYCMMS
+ID_DESC=MYCMMS_DESCRIPTION

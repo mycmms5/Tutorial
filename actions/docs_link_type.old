@@ -1,0 +1,22 @@
+<?php
+switch($_SESSION['DOCTYPE']) {
+case 'WONUM':
+    $doctype='wo';
+    break;
+case 'TASKNUM':
+    $doctype='task';
+    break;  
+case 'EQNUM':
+    $doctype='eq';
+    break;  
+case 'ITEMNUM':
+    $doctype='item';
+    break;  
+/**
+* HOMENET
+*/
+case 'CDMAG':
+    $doctype='cdmag';
+    break;
+}
+?>
